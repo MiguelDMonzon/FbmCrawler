@@ -1025,3 +1025,337 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 See /usr/include/servers/bootstrap_defs.h for the error codes.
 2017-04-26 02:27:50.563 firefox-bin[3246:283507] IMKInputSession presentFunctionRowItemTextInputViewWithEndpoint:completionHandler: : [self textInputContext]=0x1166e9bc0 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
 1493166471097	Marionette	INFO	Ceased listening
+1493194308959	geckodriver	INFO	Listening on 127.0.0.1:59473
+1493194310017	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194311629	Marionette	INFO	Listening on port 41582
+1493194311732	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194347268	geckodriver	INFO	Listening on 127.0.0.1:42980
+1493194348338	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194349918	Marionette	INFO	Listening on port 36628
+1493194349950	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194374312	geckodriver	INFO	Listening on 127.0.0.1:48321
+1493194375372	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194377044	Marionette	INFO	Listening on port 46313
+1493194377105	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194442339	geckodriver	INFO	Listening on 127.0.0.1:33482
+1493194443398	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194444988	Marionette	INFO	Listening on port 40711
+1493194445020	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194474073	geckodriver	INFO	Listening on 127.0.0.1:45426
+1493194475127	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194476694	Marionette	INFO	Listening on port 34287
+1493194476754	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194503330	geckodriver	INFO	Listening on 127.0.0.1:46541
+1493194504391	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194505970	Marionette	INFO	Listening on port 45578
+1493194506006	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194594050	geckodriver	INFO	Listening on 127.0.0.1:47012
+1493194595109	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194596696	Marionette	INFO	Listening on port 33681
+1493194596743	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194617231	geckodriver	INFO	Listening on 127.0.0.1:48671
+1493194618289	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194619880	Marionette	INFO	Listening on port 40723
+1493194619920	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194743875	geckodriver	INFO	Listening on 127.0.0.1:57885
+1493194744933	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194746495	Marionette	INFO	Listening on port 37282
+1493194746559	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194763731	geckodriver	INFO	Listening on 127.0.0.1:50731
+1493194764793	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194766422	Marionette	INFO	Listening on port 32964
+1493194766505	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194778302	geckodriver	INFO	Listening on 127.0.0.1:38799
+1493194779362	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194780975	Marionette	INFO	Listening on port 43393
+1493194781077	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194804840	geckodriver	INFO	Listening on 127.0.0.1:47288
+1493194805901	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194807521	Marionette	INFO	Listening on port 39309
+1493194807612	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194822008	geckodriver	INFO	Listening on 127.0.0.1:41647
+1493194823070	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194824649	Marionette	INFO	Listening on port 35567
+1493194824686	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194888012	geckodriver	INFO	Listening on 127.0.0.1:57225
+1493194889072	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194890626	Marionette	INFO	Listening on port 44605
+1493194890687	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1493194936421	geckodriver	INFO	Listening on 127.0.0.1:41235
+1493194937482	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194939022	Marionette	INFO	Listening on port 35136
+1493194939093	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194960578	geckodriver	INFO	Listening on 127.0.0.1:44200
+1493194961634	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194963248	Marionette	INFO	Listening on port 34718
+1493194963348	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493194987034	geckodriver	INFO	Listening on 127.0.0.1:47202
+1493194988094	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493194989657	Marionette	INFO	Listening on port 37358
+1493194989726	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493195026584	geckodriver	INFO	Listening on 127.0.0.1:57055
+1493195027643	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493195029234	Marionette	INFO	Listening on port 40408
+1493195029272	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493195058567	geckodriver	INFO	Listening on 127.0.0.1:49308
+1493195059623	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493195061208	Marionette	INFO	Listening on port 33385
+1493195061242	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493195070133	geckodriver	INFO	Listening on 127.0.0.1:36943
+1493195071193	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493195072860	Marionette	INFO	Listening on port 44316
+1493195072923	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493195104483	geckodriver	INFO	Listening on 127.0.0.1:52372
+1493195105543	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493195107120	Marionette	INFO	Listening on port 34067
+1493195107154	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493195154378	geckodriver	INFO	Listening on 127.0.0.1:57986
+1493195155437	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493195157015	Marionette	INFO	Listening on port 35474
+1493195157051	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493195200783	geckodriver	INFO	Listening on 127.0.0.1:42661
+1493195201832	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493195203494	Marionette	INFO	Listening on port 45076
+1493195203551	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493195463696	geckodriver	INFO	Listening on 127.0.0.1:44511
+1493195464755	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493195466364	Marionette	INFO	Listening on port 35662
+1493195466470	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493195586121	geckodriver	INFO	Listening on 127.0.0.1:35205
+1493195587176	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493195588852	Marionette	INFO	Listening on port 43199
+1493195588906	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493195775571	geckodriver	INFO	Listening on 127.0.0.1:45339
+1493195776642	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493195778204	Marionette	INFO	Listening on port 39562
+1493195778268	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493196262305	geckodriver	INFO	Listening on 127.0.0.1:60828
+1493196263383	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493196265002	Marionette	INFO	Listening on port 35723
+1493196265093	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1493196308519	geckodriver	INFO	Listening on 127.0.0.1:60108
+1493196309599	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493196311282	Marionette	INFO	Listening on port 35929
+1493196311320	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1493196335110	geckodriver	INFO	Listening on 127.0.0.1:58822
+1493196336170	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493196337818	Marionette	INFO	Listening on port 44798
+1493196337882	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493196406937	geckodriver	INFO	Listening on 127.0.0.1:39345
+1493196407996	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493196409603	Marionette	INFO	Listening on port 40155
+1493196409707	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493196461069	geckodriver	INFO	Listening on 127.0.0.1:54266
+1493196462147	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493196463821	Marionette	INFO	Listening on port 32867
+1493196463882	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493196513725	geckodriver	INFO	Listening on 127.0.0.1:36301
+1493196514785	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493196516427	Marionette	INFO	Listening on port 39328
+1493196516499	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493196562033	geckodriver	INFO	Listening on 127.0.0.1:38799
+1493196563111	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493196564715	Marionette	INFO	Listening on port 39048
+1493196564752	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493196629014	geckodriver	INFO	Listening on 127.0.0.1:58578
+1493196630093	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493196631792	Marionette	INFO	Listening on port 45172
+1493196631826	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://tpc.googlesyndication.com/sodar/9im3l02I.html, line 16: NS_ERROR_NOT_INITIALIZED: 
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1493196894257	geckodriver	INFO	Listening on 127.0.0.1:59156
+1493196895333	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493196896952	Marionette	INFO	Listening on port 35753
+1493196897043	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493196953124	geckodriver	INFO	Listening on 127.0.0.1:32885
+1493196954200	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493196955853	Marionette	INFO	Listening on port 37201
+1493196955911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1493197127105	geckodriver	INFO	Listening on 127.0.0.1:57988
+1493197128190	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1493197129789	Marionette	INFO	Listening on port 41933
+1493197129825	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5256521917360563&output=html&h=90&slotname=8359296115&adk=3070960853&adf=2493158830&w=728&lmt=1490101066&loeid=368226011&flash=0&url=http%3A%2F%2Fwww.fbm.es%2FPlantillas%2FPie.htm&wgl=1&dt=1493197262886&bpp=13&bdt=55&fdt=19&idt=420&shv=r20170419&cbv=r20170110&saldr=sa&correlator=2958050351298&frm=22&ga_vid=1906738953.1493197263&ga_sid=1493197263&ga_hid=382386643&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=120&u_his=50&u_java=0&u_h=1080&u_w=1920&u_ah=1044&u_aw=1920&u_cd=24&u_nplug=0&u_nmime=0&adx=16&ady=88&biw=-12245933&bih=-12245933&isw=760&ish=230&ifk=4294447263&eid=368226001%2C575144605&oid=3&top=http%3A%2F%2Fcompeticiones.feb.es%2Fautonomicas%2FResultados.aspx%3Fa%3D14&rx=0&eae=0&brdim=%2C%2C0%2C0%2C1920%2C0%2C1920%2C1007%2C760%2C230&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=UpuHQNaFiZ&p=http%3A//www.fbm.es&dtd=458, line 5: ReferenceError: buildAdSlot is not defined
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5256521917360563&output=html&h=90&slotname=8359296115&adk=3070960853&adf=2493158830&w=728&lmt=1490101066&loeid=368226011&flash=0&url=http%3A%2F%2Fwww.fbm.es%2FPlantillas%2FPie.htm&wgl=1&dt=1493197262886&bpp=13&bdt=55&fdt=19&idt=420&shv=r20170419&cbv=r20170110&saldr=sa&correlator=2958050351298&frm=22&ga_vid=1906738953.1493197263&ga_sid=1493197263&ga_hid=382386643&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=120&u_his=50&u_java=0&u_h=1080&u_w=1920&u_ah=1044&u_aw=1920&u_cd=24&u_nplug=0&u_nmime=0&adx=16&ady=88&biw=-12245933&bih=-12245933&isw=760&ish=230&ifk=4294447263&eid=368226001%2C575144605&oid=3&top=http%3A%2F%2Fcompeticiones.feb.es%2Fautonomicas%2FResultados.aspx%3Fa%3D14&rx=0&eae=0&brdim=%2C%2C0%2C0%2C1920%2C0%2C1920%2C1007%2C760%2C230&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=UpuHQNaFiZ&p=http%3A//www.fbm.es&dtd=458, line 5: ReferenceError: buildImageAd is not defined
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5256521917360563&output=html&h=90&slotname=8359296115&adk=3070960853&adf=2493158830&w=728&lmt=1490101066&loeid=368226011&flash=0&url=http%3A%2F%2Fwww.fbm.es%2FPlantillas%2FPie.htm&wgl=1&dt=1493197262886&bpp=13&bdt=55&fdt=19&idt=420&shv=r20170419&cbv=r20170110&saldr=sa&correlator=2958050351298&frm=22&ga_vid=1906738953.1493197263&ga_sid=1493197263&ga_hid=382386643&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=120&u_his=50&u_java=0&u_h=1080&u_w=1920&u_ah=1044&u_aw=1920&u_cd=24&u_nplug=0&u_nmime=0&adx=16&ady=88&biw=-12245933&bih=-12245933&isw=760&ish=230&ifk=4294447263&eid=368226001%2C575144605&oid=3&top=http%3A%2F%2Fcompeticiones.feb.es%2Fautonomicas%2FResultados.aspx%3Fa%3D14&rx=0&eae=0&brdim=%2C%2C0%2C0%2C1920%2C0%2C1920%2C1007%2C760%2C230&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=UpuHQNaFiZ&p=http%3A//www.fbm.es&dtd=458, line 5: TypeError: _.u is not a function
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5256521917360563&output=html&h=90&slotname=8359296115&adk=3070960853&adf=2493158830&w=728&lmt=1490101066&loeid=368226011&flash=0&url=http%3A%2F%2Fwww.fbm.es%2FPlantillas%2FPie.htm&wgl=1&dt=1493197262886&bpp=13&bdt=55&fdt=19&idt=420&shv=r20170419&cbv=r20170110&saldr=sa&correlator=2958050351298&frm=22&ga_vid=1906738953.1493197263&ga_sid=1493197263&ga_hid=382386643&ga_fc=0&pv=2&icsg=2&nhd=2&dssz=2&mdo=0&mso=0&u_tz=120&u_his=50&u_java=0&u_h=1080&u_w=1920&u_ah=1044&u_aw=1920&u_cd=24&u_nplug=0&u_nmime=0&adx=16&ady=88&biw=-12245933&bih=-12245933&isw=760&ish=230&ifk=4294447263&eid=368226001%2C575144605&oid=3&top=http%3A%2F%2Fcompeticiones.feb.es%2Fautonomicas%2FResultados.aspx%3Fa%3D14&rx=0&eae=0&brdim=%2C%2C0%2C0%2C1920%2C0%2C1920%2C1007%2C760%2C230&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=UpuHQNaFiZ&p=http%3A//www.fbm.es&dtd=458, line 5: ReferenceError: registerAd is not defined
